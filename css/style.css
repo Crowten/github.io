@@ -1,6 +1,8 @@
 
 body{
   padding-top:100px;
+  font-family:serif;
+  font-style:italic;
 }
 
 
@@ -105,7 +107,188 @@ body{
 #miniArticles {
   padding-top:5%;
 }
-#Wrapper {
+#Wrapper{
   width:80%;
   margin:auto;
 }
+.aboutus {
+  font-family: serif;
+  font-style: italic;
+}
+.aboutus h1 {
+  font-size:70px;
+  padding-bottom:20px;
+}
+.aboutus p {
+  line-height:30px;
+  font-size:20px;
+  text-align:left;
+}
+.posters img {
+  float:right;
+  padding-left:15px;
+  height:60%;
+  width:60%;
+}
+.posters {
+ text-align:left;
+ line-height:30px;
+ font-size:20px;
+}
+.posters h1{
+  font-size:70px;
+  padding-bottom:20px;
+}
+.customPic a:focus, a:hover{
+  text-decoration:none;
+}
+
+/*----------My CSS--------*/
+
+footer{
+  background: rgb(24,52,70);
+  width:100%;
+  float:left;
+}
+
+footer > ul {
+  font-size: 100%;
+  color: white;
+  background: rgb(24,52,70);
+  width: 30%;
+  margin: 0 auto;
+  clear:none;
+  padding: 1.5% 5%;
+  float:left;
+  list-style: none;
+}
+
+footer > ul img{
+  width: 17%;
+  height: 17%;
+  float:left;
+  padding: 1%;
+  margin: 1% 8%;
+  display:inline;
+}
+footer> .sm {
+  display: inline;
+  float:left;
+  clear:none;
+  margin: 1% auto;
+}
+
+footer a {
+  color: white;
+}
+
+footer > p {
+  font-size: 100%;
+  color: white;
+  float:left;
+  width:100%;
+  text-align: center;
+  margin: 1%;
+}
+footer> .sm li:first-child{
+  display:block;
+  text-align: center;
+}
+.sm a {
+  margin:0;
+  padding: 0;
+}
+
+footer {
+  padding: 0 10%;
+  margin-top: 10%;
+}
+/*-----Colors-----*/
+.navbar-inverse {
+  background: rgb(24,52,70);
+  border-color: rgb(4,110,143);
+}
+.navbar a {
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+
+  color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  background: rgb(245, 245, 245);
+  color: black
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover , .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus ,.dropdown-menu>li>a , .navbar-inverse .navbar-nav>.open>a:hover , .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background: rgb(245, 245, 245);
+  color: black
+}
+
+ .dropdown-menu>li>a {
+  background: rgb(24,52,70);
+  color:white;
+ }
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background: rgb(24,52,70);
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
+  background: rgb(245, 245, 245);
+  color: black
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+  }
+}
+
+/*------End of Colors-------*/
+
+
+
+
+/*----------Grid CSS-----------*/
+ /*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px auto;
+  width: 90%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 90%; }
+.span_2_of_3 { width: 60%; }
+.span_1_of_3 { width: 30%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {  margin: 1% 0 1% 0%; }
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+/*----------Grid CSS-End---------*/
