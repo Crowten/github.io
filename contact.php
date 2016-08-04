@@ -99,14 +99,15 @@
 			</div>
 			<div class="collapse navbar-collapse navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
+					<li><a href="aboutus.html">За нас</a></li>
 					<li class="dropdown active">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="services.html#fun">Забавления</a></li>
-							<li><a href="services.html#posters">Разлепяне на постери</a></li>
-							<li><a href="services.html#flaer">Разнасяне на флаери</a></li>
-							<li><a href="services.html#postbox">Разнос по пощенски кутии</a></li>
-							<li><a href="services.html#others">Други</a></li>
+							<li><a href="party.html">Забавления</a></li>
+							<li><a href="posters.html">Разлепяне на постери</a></li>
+							<li><a href="pamphlets.html">Разнасяне на флаери</a></li>
+							<li><a href="postbox.html">Разнос по пощенски кутии</a></li>
+							<li><a href="index.html">Други</a></li>
 						</ul>
 					</li>
                     <li><a href="gallery.html">Галерия</a></li>

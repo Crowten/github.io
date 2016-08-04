@@ -1,0 +1,11 @@
+﻿<<Pages edited : index.html ; style.css ; aboutus.html ; party.html ; posters-bulgaria.html ; posters-romania.html ; services.html ; posters.html ;
+gallery.html ; gallery_1.html ; pamphlets.html ; pamphlets-gallery.html ; partners.html ; postbox.html ; postbox-gallery.html ; 
+-Footer added (HTML&CSS < comments added)
+-Footer grid CSS added (comments added)
+<<Pages edited : pamphlets.html ; postbox.html ; party.html ; aboutus.html ; posters.html
+-Content changed (БЕЗАДРЕСНО-РАЗПРОСТРАНЕНИЕ-ПО-ПОЩЕНСКИ-КУТИИ.doc)
+-Content changed (ФЛАЕРИ.doc)
+-Tittles changed
+-.active changed (aboutus.html ; gallery.html ; pamphlets.html ; gallery_1.html ; partners.html ; party.html ; postbox.html
+posters.html ; index.html)
+-Color changed
